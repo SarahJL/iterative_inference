@@ -20,7 +20,7 @@ args = arg_parser.parse_args()
 
 path_to_config = os.path.join(os.getcwd(), 'cfg', args.dataset, args.model_type, args.inference_type)
 sys.path.insert(0, path_to_config)
-from config import train_config, arch
+from cfg.config import train_config, arch
 
 train_config['data_path'] = args.data_path
 train_config['log_root'] = args.log_path

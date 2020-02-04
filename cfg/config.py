@@ -14,7 +14,7 @@ train_config = {
     'encoder_decoder_train_multiple': 1,
     'kl_min': 0,
     'kl_warm_up': True,
-    'cuda_device': 1,
+    'cuda_device': 0,
     'display_iter': 30,
     'eval_iter': 2000,
     'resume_experiment': None,
